@@ -72,3 +72,18 @@ SaaS - Software as a Service
     Poder rodar suas aplicacoes em varios players de cloud.
 
 ## Dia 02 - Fundacao 
+
+Como a gente faz pra comecar a criar as coisas na nuvem? Quais sao as melhores praticas para computacao em nuvem? 
+
+Vamos planejar e pensar em como usar cloud computing da melhor maneira.
+
+Nao podemos apenas criar uma conta e sair criando servicos dentro dessa conta, vamos aprender como criar a fundacao como se estivessemos no mundo real.
+
+### Root Account
+
+- Eh a conta principal, responsavel por todos os recursos que temos na AWS.
+- Pra que serve? Iniciar e gerencias novas conta dentro da AWS, e tambem nos ajuda com o billing.
+- Nao usamos a root account para criar recursos, nao eh uma boa pratica se tratando de aplicacoes de "mundo real", que vai para a producao. O correto seria utilizar sub-accounts.
+
+
+
