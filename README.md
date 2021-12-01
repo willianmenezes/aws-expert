@@ -4,7 +4,7 @@
 
 - A Infraestrutura comecou a mudar quando surgiu o conceito de devops e esse movimento se fortaleceu por conta da computacao em nuvem.
 
-## O que eh cloud computing? 
+## Dia 01 - O que eh cloud computing? 
 
 ### Principais caracteristicas:
 
@@ -70,3 +70,5 @@ SaaS - Software as a Service
 
 - MultiCloud
     Poder rodar suas aplicacoes em varios players de cloud.
+
+## Dia 02 - Fundacao 
