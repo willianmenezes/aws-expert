@@ -51,7 +51,7 @@ Cloud nao eh apenas vender uma maquina virtual, existem varios modelos de cloud,
 - PAAS - Platform as a Service
     Nao precisamos nos preocupar com o que esta rodando por tras das nossas aplicacoes (VM, Infra e etc), um exemplo classico disse eh a heroku.
 
-SaaS - Software as a Service
+- SaaS - Software as a Service
     Nos preocupamos em apenas utilizar os programas ou funcionalidades do provedor, como por exemplo o Microsoft 365.
 
 - FAAS - Functions as a Service
