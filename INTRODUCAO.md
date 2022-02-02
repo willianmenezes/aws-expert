@@ -115,3 +115,9 @@ Nao podemos apenas criar uma conta e sair criando servicos dentro dessa conta, v
 - Para localizar o ID da conta basta clicar em Account identifier.
 - Nao esquecer de ativar o MFA.
 
+## Criando organizacao
+
+- Importante cadastrar os contatos de Billing, Operations e Security. Para que a amazon possa entrar em contato quando necessario sobre algum desses itens.
+- Para criar uma nova organizacao, basta apenas clicar no nome de usuario no canto superior direito e clicar em Organization.
+- Depois, seleciona a conta root -> clique em actions -> Create new -> Colocar o nome da organizacao -> Create organizational unit.
+
