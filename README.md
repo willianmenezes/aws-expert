@@ -95,7 +95,16 @@ Nao podemos apenas criar uma conta e sair criando servicos dentro dessa conta, v
 - Usar OU (Unidade Organizacional) eh uma boa pratica para trabalhar com OU.
 - A ideia de organizar as contas eh poder ganhar alguns poderes, podendo aplicar regras muito melhores e complexas.
 
-### Contas AWS
+### Contas AWS (Sub contas)
 
+- Basicamente eh uma conta, igual a root account, mas com a responsabilidades de rodar servicos (EC2, Lambdas e etc)
+- Podemos criar contas via invite, que ficam relacionadas com as root accounts.
+- Para criar contas precisamos obrigatoriamente de nome e e-mail.
+- Geramente eh colocado um email fake para criar as contas, ou coloca o email de uma pessoa da empresa (nao recomendado).
+- Eh importante criar uma conta real e ler os email, senao a AWS comeca a abaixar o score.
+- Cada conta criada tem um gerenciador de identidade (IAM).
 
+### Criando contas na AWS
+
+- 
 
