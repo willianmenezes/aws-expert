@@ -85,5 +85,17 @@ Nao podemos apenas criar uma conta e sair criando servicos dentro dessa conta, v
 - Pra que serve? Iniciar e gerencias novas conta dentro da AWS, e tambem nos ajuda com o billing.
 - Nao usamos a root account para criar recursos, nao eh uma boa pratica se tratando de aplicacoes de "mundo real", que vai para a producao. O correto seria utilizar sub-accounts.
 
+### O que eh unidade Organizacional? 
+
+- Usadas para organizar a administrar as contas, e aplicar regras separadas, contas como (DEV, QA, PROD).
+- Podemos criar OU (Unidade Organizacional) por empresas,  se for o caso.
+- OU (Unidade Organizacional) por departamentos (RH, Contabil, TI).
+- Podemos aplicar regras separadas em cada OU (Unidade Organizacional), exemplo: Tamanho de maquinas, bloquear regioes.
+- OU (Unidade Organizacional) eh uma forma de categorizar nossas contas.
+- Usar OU (Unidade Organizacional) eh uma boa pratica para trabalhar com OU.
+- A ideia de organizar as contas eh poder ganhar alguns poderes, podendo aplicar regras muito melhores e complexas.
+
+### Contas AWS
+
 
 
