@@ -106,5 +106,7 @@ Nao podemos apenas criar uma conta e sair criando servicos dentro dessa conta, v
 
 ### Criando contas na AWS
 
-- 
+- Acessar o site [https://aws.amazon.com/](AWS) e clicar em criar uma conta.
+- Existem um modelo chamado Free-Tier, que sao produtos que podemos usar de forma gratuita por um ano, a nao ser que passe o limite.
+- Temos que tomar cuidado com os produtos que esta dentro do free tier.
 
