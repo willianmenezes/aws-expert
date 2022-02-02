@@ -121,3 +121,8 @@ Nao podemos apenas criar uma conta e sair criando servicos dentro dessa conta, v
 - Para criar uma nova organizacao, basta apenas clicar no nome de usuario no canto superior direito e clicar em Organization.
 - Depois, seleciona a conta root -> clique em actions -> Create new -> Colocar o nome da organizacao -> Create organizational unit.
 
+## Support Center
+
+- Tudo que criamos para falar com a amazon eh chamado de "Case".
+- Health events -> Informacoes sobre problemas em servicos que podem ter atrapalhado servicos na sua conta.
+
