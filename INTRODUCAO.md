@@ -110,3 +110,8 @@ Nao podemos apenas criar uma conta e sair criando servicos dentro dessa conta, v
 - Existem um modelo chamado Free-Tier, que sao produtos que podemos usar de forma gratuita por um ano, a nao ser que passe o limite.
 - Temos que tomar cuidado com os produtos que esta dentro do free tier.
 
+### Credencias de seguranca
+
+- Para localizar o ID da conta basta clicar em Account identifier.
+- Nao esquecer de ativar o MFA.
+
