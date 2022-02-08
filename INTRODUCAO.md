@@ -126,3 +126,9 @@ Nao podemos apenas criar uma conta e sair criando servicos dentro dessa conta, v
 - Tudo que criamos para falar com a amazon eh chamado de "Case".
 - Health events -> Informacoes sobre problemas em servicos que podem ter atrapalhado servicos na sua conta.
 
+## Policies (Para servicos especificos e nao usuarios/contas)
+
+- Service Control Policy
+- Diz quais recursos e quais servicos podem ser executados dentro de uma OU (Unidade Organizacional).
+- Impedir que determinada OU (Unidade Organizacional) crie uma lambda, ou limite as regioes e etc.
+- 
