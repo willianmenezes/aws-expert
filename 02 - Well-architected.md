@@ -16,3 +16,7 @@
   - Melhorar
  
 - Temos que definir um fluxo de trabalho (WorkLoad) para poder aplicar as boas praticas no Well Architected
+
+### Milestones
+
+- Sao marcos que sevem para guiar e mostrar a evolucao das nossas melhorias de acordo com o Well Architected.
