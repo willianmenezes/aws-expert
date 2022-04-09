@@ -16,3 +16,12 @@
 - E uma boa praticar deixar uma policy readonly no grupo, se por um acaso tiver algum problema deixa apenas a readonly, assim os usuarios do grupo vao conseguir pelo menos acessar os recursos.
 
 ### Users
+
+- Esses usuarios criados no IAM vao ser usados para acessar com aquela URL personalizada da nossa conta.
+- **Access key - Programmatic access:** Usuario que tem uma chave secreta, uma chave de acesso. Comumente chamado de usuario de servico, usado por aplicacoes para acessar recursos da AWS.
+- Quando for criar um usuario de servico, eh uma boa pratica identificar que esse usuario eh utilizado somente por aplicacoes.
+- **Password - AWS Management Console access:** Usuario que acessa via console os recursos da AWS.
+- No momento da criacao do usuario, podemos colocar ele em um grupo, podemos adicionar policy.
+- **Tags:** Marcacao utilizada para ajudar a identificar recursos, podemos marcar as coisas com tags para ajudar em buscar e relatorios dentro da AWS. Tambem pode ser utilizado para gerar relatorios de custos a partir das tags.
+
+## Users - Adicionando permissoes para um usuario especifico
