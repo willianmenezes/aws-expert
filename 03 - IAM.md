@@ -25,3 +25,7 @@
 - **Tags:** Marcacao utilizada para ajudar a identificar recursos, podemos marcar as coisas com tags para ajudar em buscar e relatorios dentro da AWS. Tambem pode ser utilizado para gerar relatorios de custos a partir das tags.
 
 ## Users - Adicionando permissoes para um usuario especifico
+
+- Podemos adicionar permissoes a para usuarios especificos dentro da AWS, basta clicar em (Attach existing policies directly) dentro de Add Permissions.
+- Quando se cria um usuario pelo IAM, nao esquecer de configurar o MFA para este usuario, extremamente importante esse passo para a seguranca da AWS.
+- 
