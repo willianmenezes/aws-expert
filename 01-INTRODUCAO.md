@@ -131,4 +131,7 @@ Nao podemos apenas criar uma conta e sair criando servicos dentro dessa conta, v
 - Service Control Policy
 - Diz quais recursos e quais servicos podem ser executados dentro de uma OU (Unidade Organizacional).
 - Impedir que determinada OU (Unidade Organizacional) crie uma lambda, ou limite as regioes e etc.
-- 
+
+## Vocabulario
+
+- ARN - Amazon Resource Name: Eh um ID para um recurso. Tudo que criamos tem esse ID (Usuarios, grupos, e etc)
