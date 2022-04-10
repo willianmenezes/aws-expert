@@ -41,4 +41,7 @@
 
 ## Policies
 
-- 
+- Policy nada mais eh que permissoes que podemos dar para recursos da AWS, por exemplo, ler, editar, alterar ou remover qualquer recurso da AWS.
+- Nos detalhes de uma policy, podemos ver suas versoes, quem esta usando essa policy e entre outras coisas.
+- Existem varias policies da AWS e podemos utiliza-las para falicitar nossa vida dentro da AWS.
+- Quando estiver com duvida do que a Policy faz, basta olhar os detalhes da policy e ver o que ela permite e nao permite para os recursos que ela for atachada.
