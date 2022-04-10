@@ -28,4 +28,17 @@
 
 - Podemos adicionar permissoes a para usuarios especificos dentro da AWS, basta clicar em (Attach existing policies directly) dentro de Add Permissions.
 - Quando se cria um usuario pelo IAM, nao esquecer de configurar o MFA para este usuario, extremamente importante esse passo para a seguranca da AWS.
+
+## Roles
+
+- Uma role basicamente permite que recursos da AWS se comuniquem com outros recursos da AWS.
+- Roles, podemos agrupar dentro de uma role varias politicas, como se fosse um grupo de politicas para facilitar a manipulacao na plataforma.
+- Por exemplo, uma Role especifica pra times de desenvolvimento, onde quem tem essa role pode: Mexer com EC2, mexer com S3, SQS, algumas coisas no IAM.
+- Podemos adicionar roles em uma Account(Conta), em um servico da AWS e entre outros.
+- Podemos usar roles para que servicos da AWS tenha acesso a outros servicos. Exemplo: AWS EC2 ter acesso ao SQS. Ou que um LAMBDA acesse outros servicos dentro da AWS.
+- Importante definir um prefixo ou sufixo para diferenciar a roles da AWS das nossas
+- Para atachar uma role em um servico, navegue ate a pagina do servico, selecione e procure nas configuracoes por "Attach/Replace IAM role"
+
+## Policies
+
 - 
