@@ -39,19 +39,19 @@
 - Importante definir um prefixo ou sufixo para diferenciar a roles da AWS das nossas
 - Para atachar uma role em um servico, navegue ate a pagina do servico, selecione e procure nas configuracoes por "Attach/Replace IAM role"
 
-## Policies (managed)
-
-- Policy nada mais eh que permissoes que podemos dar para recursos da AWS, por exemplo, ler, editar, alterar ou remover qualquer recurso da AWS.
-- Nos detalhes de uma policy, podemos ver suas versoes, quem esta usando essa policy e entre outras coisas.
-- Existem varias policies da AWS e podemos utiliza-las para falicitar nossa vida dentro da AWS.
-- Quando estiver com duvida do que a Policy faz, basta olhar os detalhes da policy e ver o que ela permite e nao permite para os recursos que ela for atachada.
-
 ## Across Account Role
 
 - Role entre contas da AWS, onde uma conta permite que outra determinada conta assuma o controle temporariamente.
 - Podemos definir permissoes para que a conta que vai assumir nao realize todas as operacoes.
 - Para sair de uma conta e ir para outra conta assumindo a role que foi setada na outra conta: Clica no nome da conta e selecione "Switch Role"
 - Depois basta colocar o ID da conta de destino, o nome da Role (Cross) e assumir a conta.
+
+## Policies (managed)
+
+- Policy nada mais eh que permissoes que podemos dar para recursos da AWS, por exemplo, ler, editar, alterar ou remover qualquer recurso da AWS.
+- Nos detalhes de uma policy, podemos ver suas versoes, quem esta usando essa policy e entre outras coisas.
+- Existem varias policies da AWS e podemos utiliza-las para falicitar nossa vida dentro da AWS.
+- Quando estiver com duvida do que a Policy faz, basta olhar os detalhes da policy e ver o que ela permite e nao permite para os recursos que ela for atachada.
 
 ## Create Policies
 
@@ -65,7 +65,20 @@
 - A versoes da policies sao salvas, ou seja, as alteracoes feitas nela ficam registradas em (Policy versions), isso permite selecionar a versao anterior caso aconteca alguma merda ou algo do tipo.
 - Para atachar uma policy, basta selecionar o recurso que voce quer (Role, UserGroups ou users) e atachar a policy.
 
-## Ata
+## Identity Providers
+
+- Podemos integrar nossa conta AWS com um AD, ou um (SSO)Single Sign On.
+- Podemos criar um identity provider, basta clicar em Add provider.
+
+## Account Settings
+
+- Podemos definir politicas de senhas, como por exemplo: Utilizar 128 caracteres, letras maiusculas ou minusculas, alfanumericos e etc. Com isso todos os usuarios criados no IAM para essa conta vao ter que seguir essas politicas de senha.
+- Security Token Service (STS) - Sao token para utilizar a AWS via linha de comando, podemos definir as regioes que esses token funcionam, podemos permitir ou nao o acesso nessas regioes via STS.
+
+## Reports
+
+- Mostra um relatorio das credenciais e de cada usuario dentro do IAM. Exemplo: Quando alterou a senha, se o MFA esta ativo e etc.
+- Com esse relatorio podemos criar alertas, ver a saude dessas credenciais, via alguma linguagem de programacao ou qualquer outra ferramenta.
 
 ## LINKS UTEIS
 
