@@ -39,7 +39,7 @@
 - Importante definir um prefixo ou sufixo para diferenciar a roles da AWS das nossas
 - Para atachar uma role em um servico, navegue ate a pagina do servico, selecione e procure nas configuracoes por "Attach/Replace IAM role"
 
-## Policies
+## Policies (managed)
 
 - Policy nada mais eh que permissoes que podemos dar para recursos da AWS, por exemplo, ler, editar, alterar ou remover qualquer recurso da AWS.
 - Nos detalhes de uma policy, podemos ver suas versoes, quem esta usando essa policy e entre outras coisas.
@@ -52,6 +52,20 @@
 - Podemos definir permissoes para que a conta que vai assumir nao realize todas as operacoes.
 - Para sair de uma conta e ir para outra conta assumindo a role que foi setada na outra conta: Clica no nome da conta e selecione "Switch Role"
 - Depois basta colocar o ID da conta de destino, o nome da Role (Cross) e assumir a conta.
+
+## Create Policies
+
+- Clique em criar policies
+- (Service) - Escolha o servico -> EC2, RDS, IAM e etc.
+- (Actions) - Selecione o que podera fazer nesse recurso, ler, escrever, listar e etc
+- (Resources) - Escolher de podera ver em todos os servicos que ja estao criados ou apenas em um recurso especifico (ARN - Amazon Resource Name).
+- Quando colocamos um servico especifico, podemos escolher a regiao, a account e o nome do cluster (No caso de EKS).
+- Podemos colocar algumas condicoes especificas, por exemplo: somente se houver MFA.
+- Sempre bom ficar atento em como os JSON da policies sao gerados, geralmente esse assunto cai em prova, tanto para validar um json, quanto para escrever.
+- A versoes da policies sao salvas, ou seja, as alteracoes feitas nela ficam registradas em (Policy versions), isso permite selecionar a versao anterior caso aconteca alguma merda ou algo do tipo.
+- Para atachar uma policy, basta selecionar o recurso que voce quer (Role, UserGroups ou users) e atachar a policy.
+
+## Ata
 
 ## LINKS UTEIS
 
