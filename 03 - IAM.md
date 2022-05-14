@@ -50,6 +50,8 @@
 
 - Role entre contas da AWS, onde uma conta permite que outra determinada conta assuma o controle temporariamente.
 - Podemos definir permissoes para que a conta que vai assumir nao realize todas as operacoes.
+- Para sair de uma conta e ir para outra conta assumindo a role que foi setada na outra conta: Clica no nome da conta e selecione "Switch Role"
+- Depois basta colocar o ID da conta de destino, o nome da Role (Cross) e assumir a conta.
 
 ## LINKS UTEIS
 
