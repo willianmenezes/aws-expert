@@ -46,6 +46,11 @@
 - Existem varias policies da AWS e podemos utiliza-las para falicitar nossa vida dentro da AWS.
 - Quando estiver com duvida do que a Policy faz, basta olhar os detalhes da policy e ver o que ela permite e nao permite para os recursos que ela for atachada.
 
+## Across Account Role
+
+- Role entre contas da AWS, onde uma conta permite que outra determinada conta assuma o controle temporariamente.
+- Podemos definir permissoes para que a conta que vai assumir nao realize todas as operacoes.
+
 ## LINKS UTEIS
 
 - [AWS IAM Best Practices](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html)
